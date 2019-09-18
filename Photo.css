@@ -1,0 +1,38 @@
+.images{
+	display: flex;
+	border: 3px solid blue;
+	margin: 5%;
+	width: auto;
+	height: auto;
+	
+}
+.blocnoir{
+	border: 3px solid white;
+	background-color: #000000;
+	margin-left:5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 600px;
+	height: 450px;
+	
+
+}
+.blocrouge {
+	border: 3px solid white;
+	background-color: red;
+	margin-right:5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 600px;
+	height: 450px;	
+}
+.photo1{
+	border: 3px solid purple;
+	background-image: url(./Images/1.jpg);
+	display:flex;
+	flex-wrap: nowrap;
+}
+.photo2{
+	background-image: url(./Images/2.jpg);
+	z-index: 2;
+}
